@@ -1,0 +1,6 @@
+<h1>Enter Your Greeting</h1>
+<%= simple_form_for @greeting do |f| %>
+	<%= f.input :salutation %>
+	<%= f.input :country %>
+	<%= f.submit 'Create' %>
+	<% end %>
